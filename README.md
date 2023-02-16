@@ -32,7 +32,7 @@ user_name = 'user_git'
 local_remote = 'C:/...'
 title = "batataPython"
 
-gygit(key_acess, user_name, local_remote, title, description=None, public=True)
+gitPublish(key_acess, user_name, local_remote, title, description=None, public=True)
 
 ```
     
