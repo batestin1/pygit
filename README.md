@@ -20,13 +20,16 @@ In addition, the code has a helper function called get_latest_version, which ret
 >> <h3> How install </h3>
 
 ```
-from pyGitPush import gitPublish
+pip install pyGitPush
+
 
 ```
 
 >> <h3> How Works </h3>
 
 ```
+from pyGitPush import gitPublish
+
 key_acess = "github_pat_####################################"
 user_name = 'user_git'
 local_remote = 'C:/...'
