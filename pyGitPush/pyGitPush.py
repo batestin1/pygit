@@ -65,11 +65,6 @@ def gitPublish(key_acess, user_name, local_remote, title, description=None, publ
     os.system(f'git remote add origin {remote_url}')
     os.system('git push -u origin main')
 
-    # Clean up local_remote
-    os.chdir('..')
-    os.system(f'rm -rf {local_remote}')
-
-
 def get_latest_version():
     """
     Returns the number of the latest version available in the remote repository.

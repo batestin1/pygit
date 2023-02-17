@@ -2,7 +2,7 @@
 from setuptools import setup
 setup(
     name = 'pyGitPush',
-    version = '1.0.0',
+    version = '2.0.0',
     author = 'Bates',
     author_email = 'Bates@mailer.com.br',
     packages = ['pyGitPush'],
